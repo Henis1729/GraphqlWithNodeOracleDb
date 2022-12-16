@@ -1,0 +1,34 @@
+{
+  "name": "nodewhoracle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.10",
+    "apollo-server-express": "^3.11.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "http": "^0.0.1-security",
+    "nanoid": "^3.3.4",
+    "oracledb": "^5.5.0",
+    "ping": "^0.4.2",
+    "subscriptions-transport-ws": "^0.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.13.12",
+    "ndb": "^1.1.5",
+    "nodemon": "^2.0.7"
+  }
+}
